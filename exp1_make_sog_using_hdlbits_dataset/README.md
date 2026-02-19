@@ -1,18 +1,16 @@
 ## 1. 환경 설정
-
 ### Conda Environment
-'''tcsh
+```tcsh
 # 가상환경 생성
 conda env create -f environment.yml -n [environment name] -y
 
 # 가상환경 활성화
 conda activate [environment name]
-'''
+```
 
 ---
 
 ## 2. Yosys 빌드 및 설치 (tcsh)
-
 가상환경이 활성화된 상태에서 아래 명령어를 순서대로 입력하여 Yosys를 빌드하고 설치.
 
 ```tcsh
@@ -38,8 +36,8 @@ rehash
 
 
 ### 3. Module Load (yosys 빌드 이후에 진행)
-'''tcsh
+```tcsh
 # Pyverilog 실행에 필요한 모듈 로드
 module load iverilog/12.0
 module load license/license
-'''
+```
