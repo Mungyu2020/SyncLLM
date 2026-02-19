@@ -9,9 +9,11 @@ def clean_name(name):
     return re.sub(r'\.|\[|\]|\\|:', r'_', str(name))
 
 def main():
-    INPUT_DIR = "output_graphml"
-    OUTPUT_DIR = "img_graphml"
-    
+    INPUT_DIR = "./Data/4.Output_graphml"
+    OUTPUT_DIR = "./Data/5.Img_graphml"
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+
     input_files = glob.glob(os.path.join(INPUT_DIR, "*.graphml"))
     fault_list = [] 
     for img in tqdm(input_files, desc="Converting graphml to png"):

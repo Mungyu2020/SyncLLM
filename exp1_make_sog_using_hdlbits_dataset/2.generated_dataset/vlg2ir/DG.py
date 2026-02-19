@@ -244,10 +244,10 @@ class Graph:
         
         return isolated_nodes
     
-    def show_graph(self, design_name):
+    def show_graph(self, design_name, file_dir):
         self.get_stat()
         print('----- Writting Graph Visialization File -----')
-        outfile_path = "./img_sog/"
+        outfile_path = file_dir
         outfile = outfile_path + f"{design_name}.dot"
         top_name = 'test'
         node_set = self.get_all_nodes2()

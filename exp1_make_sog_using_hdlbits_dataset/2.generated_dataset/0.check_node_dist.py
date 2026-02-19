@@ -2,7 +2,7 @@ import glob
 import os
 import math
 
-files = glob.glob('./output_graphml/*.graphml')
+files = glob.glob('./Data/4.Output_graphml/*.graphml')
 
 counts = []         
 deleted_count = 0  

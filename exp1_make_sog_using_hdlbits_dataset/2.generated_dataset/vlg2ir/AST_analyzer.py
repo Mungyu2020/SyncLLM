@@ -18,10 +18,10 @@ class AST_analyzer(object):
 
     def AST2Graph(self, ast):
         self.traverse_AST(ast)
-        print(self.graph.graph)
+        #print(self.graph.graph)
         self.graph.cal_node_width()
         self.eliminate_wires(self.graph)
-        print(self.graph.graph)
+        #print(self.graph.graph)
         self.add_parent_edge()
         
 

@@ -11,7 +11,10 @@ sys.path.append("./vlg2ir")
 from vlg2ir.AST_analyzer import AST_analyzer
 
 def main():
-    INPUT_DIR = "./SOG"
+    INPUT_DIR = "./Data/4.SOG"
+    OUTPUT_DIR = "./Data/5.Img_sog/"
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
     
     sog_files = glob.glob(os.path.join(INPUT_DIR, "*.v"))
     total_files = len(sog_files) 
@@ -29,7 +32,7 @@ def main():
             ast_analysis.AST2Graph(ast)
             g = ast_analysis.graph
             
-            g.show_graph(topmodule)
+            g.show_graph(topmodule, OUTPUT_DIR)
             
         except Exception as e:
             print(f"Error processing {topmodule}: {e}") 
@@ -38,3 +41,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    os.system("rm parser.out parsetab.py")
