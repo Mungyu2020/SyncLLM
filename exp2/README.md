@@ -28,7 +28,7 @@ python -m pip install -r requirements.txt
 rehash
 ```
 
-Version 2
+Version 2 (Recommended)
  ```tcsh
 # 가상환경 생성 (>30 min)
 tcsh install_env.csh [environment name]
