@@ -1,10 +1,12 @@
 ## 1. 실험 설명
 * **1.dataset_for_diffusion:**
     * HDLBITS_solutions로 추출한 RTL을 Sync-LLM의 EDGE Diffusion model 학습 데이터셋 형식에 맞게 SOG Graph를 만들고 graphml형식으로 저장
+    * 해당 실험은 GPU-5 서버에서 진행했지만 GPU를 사용하지는 않음
 * **2.generated_dataset:**
     * 2-1.저장 graphml 파일을 이미지로 출력하여 그래프 시각화 (코드 직접 작성)
     * 2-2.MasterRTL처럼 SOG를 내부 SOG 형태(DG.py)로 저장한 뒤에 바로 이미지로 저장하고 시각화(MasterRTL show_graph)
     * 2-1과 2-2가 동일한 그래프이어야지 1.dataset_for_diffusion에서 저장한 graphml 파일이 실제 MasterRTL이 생성한 SOG와 같은지 보장됨
+    * 해당 실험은 GPU-5 서버에서 진행했지만 GPU를 사용하지는 않음
 
 ## 2. 환경 설정
 ### Conda Environment

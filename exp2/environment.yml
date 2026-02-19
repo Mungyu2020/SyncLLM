@@ -1,0 +1,19 @@
+name: SynCircuit_team
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.25
+  - pytorch=2.4.0
+  - torchvision=0.19.0
+  - torchaudio=2.4.0
+  - pytorch-cuda=12.1
+  - pyg=2.6.1
+  - pytorch-scatter=2.1.2
+  - pytorch-sparse=0.6.18
+  - pytorch-cluster=1.6.3
+  - pytorch-spline-conv=1.2.2
+  - pip
