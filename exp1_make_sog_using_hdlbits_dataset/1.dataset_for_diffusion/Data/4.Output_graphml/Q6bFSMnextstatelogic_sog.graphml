@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="y">
+      <data key="d0">Wire</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="w">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Y2">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_01_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_03_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_04_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_05_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_06_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_07_">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_08_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_09_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_11_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_12_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_13_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_14_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_15_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_16_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_17_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_18_">
+      <data key="d0">Wire</data>
+      <data key="d1">12</data>
+    </node>
+    <node id="_19_">
+      <data key="d0">Wire</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="_20_">
+      <data key="d0">Wire</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="_21_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="next_state">
+      <data key="d0">Wire</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="Unot0">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot1">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot2">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_18_.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_19_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or4">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or5">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or6">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or7">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or8">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or9">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or10">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or11">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or12">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_20_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or13">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_18_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_07_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or14">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_07_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or15">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_19_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_19_.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or16">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or17">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or18">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or19">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot20">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot21">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot22">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot23">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot24">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot25">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond26">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_18_.PS11_10">
+      <data key="d0">Partselect</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_18_.PS8_7">
+      <data key="d0">Partselect</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_18_.PTR4">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_18_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat27">
+      <data key="d0">Concat</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_18_.PTR6">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant2">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant3">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat28">
+      <data key="d0">Concat</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant4">
+      <data key="d0">Constant</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant5">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant6">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat29">
+      <data key="d0">Concat</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant7">
+      <data key="d0">Constant</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant8">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant9">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat30">
+      <data key="d0">Concat</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant10">
+      <data key="d0">Constant</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="Constant11">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant12">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_19_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="next_state.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Unot0" target="y.PTR1" />
+    <edge source="Unot1" target="y.PTR2" />
+    <edge source="Unot2" target="y.PTR3" />
+    <edge source="And3" target="w" />
+    <edge source="And3" target="Or17" />
+    <edge source="Or4" target="Unot0" />
+    <edge source="Or4" target="y.PTR2" />
+    <edge source="Or5" target="Or4" />
+    <edge source="Or5" target="Unot2" />
+    <edge source="Or6" target="y.PTR1" />
+    <edge source="Or6" target="y.PTR2" />
+    <edge source="Or7" target="Or6" />
+    <edge source="Or7" target="Unot2" />
+    <edge source="Or8" target="Unot0" />
+    <edge source="Or8" target="Unot1" />
+    <edge source="Or9" target="Or8" />
+    <edge source="Or9" target="y.PTR3" />
+    <edge source="Or10" target="y.PTR1" />
+    <edge source="Or10" target="Unot1" />
+    <edge source="Or11" target="Or10" />
+    <edge source="Or11" target="y.PTR3" />
+    <edge source="Or12" target="Or4" />
+    <edge source="Or12" target="y.PTR3" />
+    <edge source="Or13" target="Or18" />
+    <edge source="Or13" target="And3" />
+    <edge source="Or14" target="Or18" />
+    <edge source="Or14" target="Or17" />
+    <edge source="Or15" target="Unot22" />
+    <edge source="Or15" target="Unot25" />
+    <edge source="Or16" target="Or14" />
+    <edge source="Or16" target="Or15" />
+    <edge source="Or17" target="Unot21" />
+    <edge source="Or17" target="Unot23" />
+    <edge source="Or18" target="Unot20" />
+    <edge source="Or18" target="Unot24" />
+    <edge source="Or19" target="Or6" />
+    <edge source="Or19" target="y.PTR3" />
+    <edge source="Unot20" target="Or5" />
+    <edge source="Unot21" target="Or7" />
+    <edge source="Unot22" target="Or9" />
+    <edge source="Unot23" target="Or11" />
+    <edge source="Unot24" target="Or12" />
+    <edge source="Unot25" target="Or19" />
+    <edge source="Cond26" target="Or16" />
+    <edge source="Cond26" target="Or13" />
+    <edge source="Cond26" target="Constant0" />
+    <edge source="Concat27" target="Constant1" />
+    <edge source="Concat27" target="_18_.PTR6" />
+    <edge source="Concat27" target="Constant2" />
+    <edge source="Concat27" target="And3" />
+    <edge source="Concat27" target="Constant3" />
+    <edge source="Concat28" target="Constant4" />
+    <edge source="Concat28" target="_18_.PTR6" />
+    <edge source="Concat28" target="Constant5" />
+    <edge source="Concat28" target="And3" />
+    <edge source="Concat28" target="Constant6" />
+    <edge source="Concat29" target="Constant7" />
+    <edge source="Concat29" target="_18_.PTR6" />
+    <edge source="Concat29" target="Constant8" />
+    <edge source="Concat29" target="And3" />
+    <edge source="Concat29" target="Constant9" />
+    <edge source="Concat30" target="Constant10" />
+    <edge source="Concat30" target="_18_.PTR6" />
+    <edge source="Concat30" target="Constant11" />
+    <edge source="Concat30" target="And3" />
+    <edge source="Concat30" target="Constant12" />
+  </graph>
+</graphml>

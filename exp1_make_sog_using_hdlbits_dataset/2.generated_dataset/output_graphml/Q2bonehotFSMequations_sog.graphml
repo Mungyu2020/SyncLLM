@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="y">
+      <data key="d0">Wire</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="w">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Y1">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Y3">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_1_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_2_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_3_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR4">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y.PTR5">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And4">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot5">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="And0" target="w" />
+    <edge source="And0" target="y.PTR0" />
+    <edge source="Or1" target="y.PTR1" />
+    <edge source="Or1" target="y.PTR2" />
+    <edge source="Or2" target="Or1" />
+    <edge source="Or2" target="y.PTR4" />
+    <edge source="Or3" target="Or2" />
+    <edge source="Or3" target="y.PTR5" />
+    <edge source="And4" target="Unot5" />
+    <edge source="And4" target="Or3" />
+    <edge source="Unot5" target="w" />
+  </graph>
+</graphml>

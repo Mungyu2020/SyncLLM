@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="areset">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="load">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="ena">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="data">
+      <data key="d0">Wire</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="q">
+      <data key="d0">Reg</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="_00_">
+      <data key="d0">Wire</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="_01_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_">
+      <data key="d0">Wire</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="Mux0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant2">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant3">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux4">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant4">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant5">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux5">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux6">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant6">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant7">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux7">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or8">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond9">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="data.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond10">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="data.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond11">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant8">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond12">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant9">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond13">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant10">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond14">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant11">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant12">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond15">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="data.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond16">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="data.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="q" target="q.PTR0" />
+    <edge source="q" target="q.PTR1" />
+    <edge source="q" target="q.PTR2" />
+    <edge source="q" target="q.PTR3" />
+    <edge source="Mux0" target="areset" />
+    <edge source="Mux0" target="Constant0" />
+    <edge source="q.PTR0" target="Mux0" />
+    <edge source="q.PTR0" target="Constant1" />
+    <edge source="q.PTR0" target="Cond15" />
+    <edge source="Mux2" target="areset" />
+    <edge source="Mux2" target="Constant2" />
+    <edge source="q.PTR1" target="Mux2" />
+    <edge source="q.PTR1" target="Constant3" />
+    <edge source="q.PTR1" target="Cond16" />
+    <edge source="Mux4" target="areset" />
+    <edge source="Mux4" target="Constant4" />
+    <edge source="q.PTR2" target="Mux4" />
+    <edge source="q.PTR2" target="Constant5" />
+    <edge source="q.PTR2" target="Cond9" />
+    <edge source="Mux6" target="areset" />
+    <edge source="Mux6" target="Constant6" />
+    <edge source="q.PTR3" target="Mux6" />
+    <edge source="q.PTR3" target="Constant7" />
+    <edge source="q.PTR3" target="Cond10" />
+    <edge source="Or8" target="load" />
+    <edge source="Or8" target="ena" />
+    <edge source="Cond9" target="load" />
+    <edge source="Cond9" target="data.PTR2" />
+    <edge source="Cond9" target="Cond13" />
+    <edge source="Cond10" target="load" />
+    <edge source="Cond10" target="data.PTR3" />
+    <edge source="Cond10" target="Cond14" />
+    <edge source="Cond11" target="ena" />
+    <edge source="Cond11" target="q.PTR1" />
+    <edge source="Cond11" target="Constant8" />
+    <edge source="Cond12" target="ena" />
+    <edge source="Cond12" target="q.PTR2" />
+    <edge source="Cond12" target="Constant9" />
+    <edge source="Cond13" target="ena" />
+    <edge source="Cond13" target="q.PTR3" />
+    <edge source="Cond13" target="Constant10" />
+    <edge source="Cond14" target="ena" />
+    <edge source="Cond14" target="Constant11" />
+    <edge source="Cond14" target="Constant12" />
+    <edge source="Cond15" target="load" />
+    <edge source="Cond15" target="data.PTR0" />
+    <edge source="Cond15" target="Cond11" />
+    <edge source="Cond16" target="load" />
+    <edge source="Cond16" target="data.PTR1" />
+    <edge source="Cond16" target="Cond12" />
+  </graph>
+</graphml>

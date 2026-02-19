@@ -1,0 +1,26 @@
+digraph test {
+    b [style=filled, color=red];
+    Xor1 [style=filled, color=pink];
+    And2 [style=filled, color=pink];
+    Or4 [style=filled, color=pink];
+    Or6 [style=filled, color=pink];
+    cin [style=filled, color=red];
+    Xor0 [style=filled, color=pink];
+    And5 [style=filled, color=pink];
+    a [style=filled, color=red];
+    And3 [style=filled, color=pink];
+    And3 -> a;
+    And2 -> a;
+    And2 -> b;
+    Or4 -> And3;
+    Or4 -> And2;
+    And5 -> b;
+    And3 -> cin;
+    And5 -> cin;
+    Xor0 -> a;
+    Or6 -> Or4;
+    Xor0 -> b;
+    Xor1 -> Xor0;
+    Xor1 -> cin;
+    Or6 -> And5;
+}

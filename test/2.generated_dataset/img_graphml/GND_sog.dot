@@ -1,0 +1,4 @@
+digraph GND_sog {
+    out [label="out", style=filled, color=red];
+    Constant0 [label="Constant0", style=filled, color=grey];
+}

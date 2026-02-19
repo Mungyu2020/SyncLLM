@@ -1,0 +1,32 @@
+digraph _4VariableKmap3_sog {
+    a [label="a", style=filled, color=red];
+    b [label="b", style=filled, color=red];
+    c [label="c", style=filled, color=red];
+    d [label="d", style=filled, color=red];
+    out [label="out", style=filled, color=red];
+    _00_ [label="_00_", style=filled, color=red];
+    _01_ [label="_01_", style=filled, color=red];
+    _02_ [label="_02_", style=filled, color=red];
+    _03_ [label="_03_", style=filled, color=red];
+    _04_ [label="_04_", style=filled, color=red];
+    _05_ [label="_05_", style=filled, color=red];
+    And0 [label="And0", style=filled, color=pink];
+    Xor1 [label="Xor1", style=filled, color=pink];
+    Xor2 [label="Xor2", style=filled, color=pink];
+    And3 [label="And3", style=filled, color=pink];
+    Or4 [label="Or4", style=filled, color=pink];
+    Unot5 [label="Unot5", style=filled, color=pink];
+    Unot6 [label="Unot6", style=filled, color=pink];
+    And0 -> Xor1;
+    And0 -> Unot5;
+    Xor1 -> a;
+    Xor1 -> b;
+    Xor2 -> c;
+    Xor2 -> d;
+    And3 -> Unot6;
+    And3 -> Xor2;
+    Or4 -> And0;
+    Or4 -> And3;
+    Unot5 -> Xor2;
+    Unot6 -> Xor1;
+}

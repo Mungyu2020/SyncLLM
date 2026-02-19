@@ -1,0 +1,38 @@
+digraph _3BitLFSR_sog {
+    SW [label="SW", style=filled, color=red];
+    KEY [label="KEY", style=filled, color=red];
+    LEDR [label="LEDR", style=filled, color=lightblue];
+    _0_ [label="_0_", style=filled, color=red];
+    _1_ [label="_1_", style=filled, color=red];
+    LEDR_PTR0 [label="LEDR.PTR0", label="LEDR.PTR0"];
+    _0__PTR0 [label="_0_.PTR0", label="_0_.PTR0"];
+    LEDR_PTR1 [label="LEDR.PTR1", label="LEDR.PTR1"];
+    _0__PTR1 [label="_0_.PTR1", label="_0_.PTR1"];
+    LEDR_PTR2 [label="LEDR.PTR2", label="LEDR.PTR2"];
+    _0__PTR2 [label="_0_.PTR2", label="_0_.PTR2"];
+    Xor0 [label="Xor0", style=filled, color=pink];
+    Cond1 [label="Cond1", style=filled, color=pink];
+    KEY_PTR1 [label="KEY.PTR1", label="KEY.PTR1"];
+    SW_PTR0 [label="SW.PTR0", label="SW.PTR0"];
+    Cond2 [label="Cond2", style=filled, color=pink];
+    SW_PTR1 [label="SW.PTR1", label="SW.PTR1"];
+    Cond3 [label="Cond3", style=filled, color=pink];
+    SW_PTR2 [label="SW.PTR2", label="SW.PTR2"];
+    LEDR -> LEDR_PTR0;
+    LEDR -> LEDR_PTR1;
+    LEDR -> LEDR_PTR2;
+    LEDR_PTR0 -> Cond1;
+    LEDR_PTR1 -> Cond2;
+    LEDR_PTR2 -> Cond3;
+    Xor0 -> LEDR_PTR2;
+    Xor0 -> LEDR_PTR1;
+    Cond1 -> KEY_PTR1;
+    Cond1 -> SW_PTR0;
+    Cond1 -> LEDR_PTR2;
+    Cond2 -> KEY_PTR1;
+    Cond2 -> SW_PTR1;
+    Cond2 -> LEDR_PTR0;
+    Cond3 -> KEY_PTR1;
+    Cond3 -> SW_PTR2;
+    Cond3 -> Xor0;
+}

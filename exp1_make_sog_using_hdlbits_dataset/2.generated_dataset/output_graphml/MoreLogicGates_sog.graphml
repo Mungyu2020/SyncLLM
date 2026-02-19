@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="a">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="b">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_and">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_or">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_xor">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_nand">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_nor">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_xnor">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out_anotb">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Xor2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot4">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot5">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot6">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot7">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="And0" target="a" />
+    <edge source="And0" target="b" />
+    <edge source="Or1" target="a" />
+    <edge source="Or1" target="b" />
+    <edge source="Xor2" target="a" />
+    <edge source="Xor2" target="b" />
+    <edge source="And3" target="a" />
+    <edge source="And3" target="Unot7" />
+    <edge source="Unot4" target="And0" />
+    <edge source="Unot5" target="Or1" />
+    <edge source="Unot6" target="Xor2" />
+    <edge source="Unot7" target="b" />
+  </graph>
+</graphml>

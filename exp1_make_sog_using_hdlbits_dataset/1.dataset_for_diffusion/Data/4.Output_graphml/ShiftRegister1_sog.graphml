@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="resetn">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="in">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out">
+      <data key="d0">Reg</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q">
+      <data key="d0">Reg</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="Mux0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot1">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot3">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant2">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant3">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux4">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot5">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant4">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant5">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux6">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot7">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant6">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant7">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="out" target="Mux6" />
+    <edge source="out" target="Constant7" />
+    <edge source="out" target="q.PTR0" />
+    <edge source="q" target="q.PTR0" />
+    <edge source="q" target="q.PTR1" />
+    <edge source="q" target="q.PTR2" />
+    <edge source="Mux0" target="Ulnot1" />
+    <edge source="Mux0" target="q.PTR1" />
+    <edge source="Mux0" target="Constant0" />
+    <edge source="Ulnot1" target="resetn" />
+    <edge source="q.PTR0" target="Mux0" />
+    <edge source="q.PTR0" target="Constant1" />
+    <edge source="q.PTR0" target="q.PTR1" />
+    <edge source="q.PTR1" target="Mux2" />
+    <edge source="q.PTR1" target="Constant3" />
+    <edge source="q.PTR1" target="q.PTR2" />
+    <edge source="Mux2" target="Ulnot3" />
+    <edge source="Mux2" target="q.PTR2" />
+    <edge source="Mux2" target="Constant2" />
+    <edge source="Ulnot3" target="resetn" />
+    <edge source="q.PTR2" target="Mux4" />
+    <edge source="q.PTR2" target="Constant5" />
+    <edge source="q.PTR2" target="in" />
+    <edge source="Mux4" target="Ulnot5" />
+    <edge source="Mux4" target="in" />
+    <edge source="Mux4" target="Constant4" />
+    <edge source="Ulnot5" target="resetn" />
+    <edge source="Mux6" target="Ulnot7" />
+    <edge source="Mux6" target="q.PTR0" />
+    <edge source="Mux6" target="Constant6" />
+    <edge source="Ulnot7" target="resetn" />
+  </graph>
+</graphml>

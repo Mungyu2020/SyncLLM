@@ -1,0 +1,12 @@
+digraph SimpleCircuitA_sog {
+    x [label="x", style=filled, color=red];
+    y [label="y", style=filled, color=red];
+    z [label="z", style=filled, color=red];
+    _0_ [label="_0_", style=filled, color=red];
+    Xor0 [label="Xor0", style=filled, color=pink];
+    And1 [label="And1", style=filled, color=pink];
+    Xor0 -> x;
+    Xor0 -> y;
+    And1 -> Xor0;
+    And1 -> x;
+}

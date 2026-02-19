@@ -1,0 +1,15 @@
+[submodule "MasterRTL"]
+	path = MasterRTL
+	url = https://github.com/hkust-zhiyao/MasterRTL.git
+[submodule "SynCircuitData"]
+	path = SynCircuitData
+	url = https://github.com/hkust-zhiyao/SynCircuitData.git
+[submodule "Pyverilog"]
+	path = Pyverilog
+	url = https://github.com/PyHDI/Pyverilog.git
+[submodule "HDLBITS_solutions"]
+	path = HDLBITS_solutions
+	url = https://github.com/saikumargadde2807/HDLBITS_solutions.git
+[submodule "yosys"]
+	path = yosys
+	url = https://github.com/YosysHQ/yosys.git

@@ -1,0 +1,19 @@
+digraph test {
+    j [style=filled, color=red];
+    Q [style=filled, color=lightblue];
+    And1 [style=filled, color=pink];
+    And0 [style=filled, color=pink];
+    Unot3 [style=filled, color=pink];
+    Unot4 [style=filled, color=pink];
+    k [style=filled, color=red];
+    Or2 [style=filled, color=pink];
+    Unot4 -> k;
+    And1 -> Unot4;
+    Or2 -> And0;
+    And1 -> Q;
+    Q -> Or2;
+    Or2 -> And1;
+    Unot3 -> Q;
+    And0 -> Unot3;
+    And0 -> j;
+}

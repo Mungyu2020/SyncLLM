@@ -1,0 +1,5 @@
+digraph test {
+    d [style=filled, color=red];
+    q [style=filled, color=lightblue];
+    q -> d;
+}

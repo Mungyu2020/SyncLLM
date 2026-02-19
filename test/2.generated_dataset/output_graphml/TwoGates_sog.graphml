@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="in1">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="in2">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="in3">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_1_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Xor0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Xor1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot2">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Xor0" target="in1" />
+    <edge source="Xor0" target="in2" />
+    <edge source="Xor1" target="in3" />
+    <edge source="Xor1" target="Unot2" />
+    <edge source="Unot2" target="Xor0" />
+  </graph>
+</graphml>

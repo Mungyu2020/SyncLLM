@@ -1,0 +1,10 @@
+digraph test {
+    b [style=filled, color=red];
+    a [style=filled, color=red];
+    And1 [style=filled, color=pink];
+    Xor0 [style=filled, color=pink];
+    And1 -> a;
+    Xor0 -> b;
+    Xor0 -> a;
+    And1 -> b;
+}

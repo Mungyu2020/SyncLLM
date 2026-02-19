@@ -1,0 +1,9 @@
+read_verilog -sv "./RTL/24286.v"
+
+synth -top or1200_spram
+
+splitnets -ports
+
+clean
+
+write_verilog -noattr ./SOG/or1200_spram_sog.v 

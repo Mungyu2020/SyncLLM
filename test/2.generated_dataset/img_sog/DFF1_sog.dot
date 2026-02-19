@@ -1,0 +1,14 @@
+digraph test {
+    ar [style=filled, color=red];
+    Constant0 [style=filled, color=grey];
+    Constant1 [style=filled, color=grey];
+    Mux0 [style=filled, color=pink];
+    d [style=filled, color=red];
+    q [style=filled, color=lightblue];
+    q -> Constant1;
+    Mux0 -> Constant0;
+    Mux0 -> ar;
+    q -> d;
+    Mux0 -> d;
+    q -> Mux0;
+}

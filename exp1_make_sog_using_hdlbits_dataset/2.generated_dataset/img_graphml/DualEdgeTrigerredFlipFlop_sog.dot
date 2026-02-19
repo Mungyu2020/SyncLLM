@@ -1,0 +1,13 @@
+digraph DualEdgeTrigerredFlipFlop_sog {
+    clk [label="clk", style=filled, color=red];
+    d [label="d", style=filled, color=red];
+    q [label="q", style=filled, color=red];
+    temp1 [label="temp1", style=filled, color=lightblue];
+    temp2 [label="temp2", style=filled, color=lightblue];
+    Cond0 [label="Cond0", style=filled, color=pink];
+    temp1 -> d;
+    temp2 -> d;
+    Cond0 -> clk;
+    Cond0 -> temp1;
+    Cond0 -> temp2;
+}

@@ -1,0 +1,13 @@
+digraph _3Variable_sog {
+    a [label="a", style=filled, color=red];
+    b [label="b", style=filled, color=red];
+    c [label="c", style=filled, color=red];
+    out [label="out", style=filled, color=red];
+    _0_ [label="_0_", style=filled, color=red];
+    Or0 [label="Or0", style=filled, color=pink];
+    Or1 [label="Or1", style=filled, color=pink];
+    Or0 -> a;
+    Or0 -> b;
+    Or1 -> Or0;
+    Or1 -> c;
+}

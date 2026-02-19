@@ -1,0 +1,10 @@
+digraph DFFplusGate_sog {
+    clk [label="clk", style=filled, color=red];
+    in [label="in", style=filled, color=red];
+    out [label="out", style=filled, color=lightblue];
+    _0_ [label="_0_", style=filled, color=red];
+    Xor0 [label="Xor0", style=filled, color=pink];
+    out -> Xor0;
+    Xor0 -> out;
+    Xor0 -> in;
+}

@@ -1,0 +1,25 @@
+digraph test {
+    y_PTR5 [style=filled, color=red];
+    Or1 [style=filled, color=pink];
+    y_PTR6 [style=filled, color=red];
+    y_PTR1 [style=filled, color=red];
+    y_PTR3 [style=filled, color=red];
+    And4 [style=filled, color=pink];
+    Unot5 [style=filled, color=pink];
+    And0 [style=filled, color=pink];
+    y_PTR2 [style=filled, color=red];
+    Or3 [style=filled, color=pink];
+    w [style=filled, color=red];
+    Or2 [style=filled, color=pink];
+    Unot5 -> w;
+    And0 -> y_PTR1;
+    Or2 -> Or1;
+    Or2 -> y_PTR5;
+    Or3 -> Or2;
+    And0 -> Unot5;
+    Or1 -> y_PTR2;
+    Or3 -> y_PTR6;
+    And4 -> w;
+    And4 -> Or3;
+    Or1 -> y_PTR3;
+}

@@ -1,0 +1,12 @@
+digraph test {
+    Cond0 [style=filled, color=pink];
+    temp1 [style=filled, color=lightblue];
+    clk [style=filled, color=red];
+    d [style=filled, color=red];
+    temp2 [style=filled, color=lightblue];
+    temp1 -> d;
+    Cond0 -> temp1;
+    temp2 -> d;
+    Cond0 -> clk;
+    Cond0 -> temp2;
+}

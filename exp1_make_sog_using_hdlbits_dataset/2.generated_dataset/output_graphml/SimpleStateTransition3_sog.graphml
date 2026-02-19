@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="in">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="state">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="next_state">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="out">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_00_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_01_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_03_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_04_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_05_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_06_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_07_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_08_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_09_">
+      <data key="d0">Wire</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="_10_">
+      <data key="d0">Wire</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="_11_">
+      <data key="d0">Wire</data>
+      <data key="d1">3</data>
+    </node>
+    <node id="_12_">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_13_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot0">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="state.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot1">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="state.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR4">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_11_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_11_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And4">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_11_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And5">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_09_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or6">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or7">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or8">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_12_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or9">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or10">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_12_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or11">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or12">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or13">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or14">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or15">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot16">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot17">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot18">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot19">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="next_state.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond20">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="next_state.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond21">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot22">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_09_.PS5_2">
+      <data key="d0">Partselect</data>
+      <data key="d1">4</data>
+    </node>
+    <node id="_09_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat23">
+      <data key="d0">Concat</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant2">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat24">
+      <data key="d0">Concat</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant3">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR5">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_10_.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat25">
+      <data key="d0">Concat</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant4">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Concat26">
+      <data key="d0">Concat</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant5">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Unot0" target="state.PTR1" />
+    <edge source="Unot1" target="state.PTR0" />
+    <edge source="And2" target="in" />
+    <edge source="And2" target="Unot19" />
+    <edge source="And3" target="in" />
+    <edge source="And3" target="Unot17" />
+    <edge source="And4" target="in" />
+    <edge source="And4" target="Or14" />
+    <edge source="And5" target="Unot22" />
+    <edge source="And5" target="Or14" />
+    <edge source="Or6" target="Unot1" />
+    <edge source="Or6" target="Unot0" />
+    <edge source="Or7" target="state.PTR0" />
+    <edge source="Or7" target="Unot0" />
+    <edge source="Or8" target="Unot1" />
+    <edge source="Or8" target="state.PTR1" />
+    <edge source="Or9" target="And5" />
+    <edge source="Or9" target="And3" />
+    <edge source="Or10" target="And4" />
+    <edge source="Or10" target="And3" />
+    <edge source="Or11" target="Or10" />
+    <edge source="Or11" target="And2" />
+    <edge source="Or12" target="Or14" />
+    <edge source="Or12" target="Unot17" />
+    <edge source="Or13" target="Or12" />
+    <edge source="Or13" target="Unot19" />
+    <edge source="Or14" target="Unot16" />
+    <edge source="Or14" target="Unot18" />
+    <edge source="Or15" target="state.PTR0" />
+    <edge source="Or15" target="state.PTR1" />
+    <edge source="Unot16" target="Or6" />
+    <edge source="Unot17" target="Or7" />
+    <edge source="Unot18" target="Or8" />
+    <edge source="Unot19" target="Or15" />
+    <edge source="Cond20" target="Or13" />
+    <edge source="Cond20" target="Or11" />
+    <edge source="Cond20" target="Constant0" />
+    <edge source="Cond21" target="Or13" />
+    <edge source="Cond21" target="Or9" />
+    <edge source="Cond21" target="Constant1" />
+    <edge source="Unot22" target="in" />
+    <edge source="Concat23" target="Constant2" />
+    <edge source="Concat23" target="in" />
+    <edge source="Concat24" target="Constant3" />
+    <edge source="Concat24" target="in" />
+    <edge source="Concat25" target="Constant4" />
+    <edge source="Concat25" target="And3" />
+    <edge source="Concat26" target="Constant5" />
+    <edge source="Concat26" target="And3" />
+  </graph>
+</graphml>

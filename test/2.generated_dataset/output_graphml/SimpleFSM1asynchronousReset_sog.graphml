@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="areset">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="in">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="out">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_1_">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="_2_">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="next_state">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="state">
+      <data key="d0">Reg</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_1_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_2_.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_1_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot4">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot5">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_2_.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="state" target="Mux0" />
+    <edge source="state" target="Constant1" />
+    <edge source="state" target="Or3" />
+    <edge source="Mux0" target="areset" />
+    <edge source="Mux0" target="Or3" />
+    <edge source="Mux0" target="Constant0" />
+    <edge source="And1" target="Unot4" />
+    <edge source="And1" target="Unot5" />
+    <edge source="And2" target="in" />
+    <edge source="And2" target="state" />
+    <edge source="Or3" target="And2" />
+    <edge source="Or3" target="And1" />
+    <edge source="Unot4" target="in" />
+    <edge source="Unot5" target="state" />
+  </graph>
+</graphml>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="w">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="R">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="E">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="L">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Q">
+      <data key="d0">Reg</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_1_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_2_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Q" target="Cond3" />
+    <edge source="Or1" target="E" />
+    <edge source="Or1" target="L" />
+    <edge source="Cond2" target="E" />
+    <edge source="Cond2" target="w" />
+    <edge source="Cond2" target="Constant0" />
+    <edge source="Cond3" target="L" />
+    <edge source="Cond3" target="R" />
+    <edge source="Cond3" target="Cond2" />
+  </graph>
+</graphml>

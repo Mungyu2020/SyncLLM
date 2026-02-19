@@ -1,0 +1,22 @@
+digraph KarnaughMap1_sog {
+    x [label="x", style=filled, color=red];
+    f [label="f", style=filled, color=red];
+    _0_ [label="_0_", style=filled, color=red];
+    _1_ [label="_1_", style=filled, color=red];
+    _2_ [label="_2_", style=filled, color=red];
+    And0 [label="And0", style=filled, color=pink];
+    x_PTR3 [label="x.PTR3", label="x.PTR3"];
+    And1 [label="And1", style=filled, color=pink];
+    x_PTR4 [label="x.PTR4", label="x.PTR4"];
+    x_PTR2 [label="x.PTR2", label="x.PTR2"];
+    Or2 [label="Or2", style=filled, color=pink];
+    Unot3 [label="Unot3", style=filled, color=pink];
+    x_PTR1 [label="x.PTR1", label="x.PTR1"];
+    And0 -> Unot3;
+    And0 -> x_PTR3;
+    And1 -> x_PTR4;
+    And1 -> x_PTR2;
+    Or2 -> And0;
+    Or2 -> And1;
+    Unot3 -> x_PTR1;
+}

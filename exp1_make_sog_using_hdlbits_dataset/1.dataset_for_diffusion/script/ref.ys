@@ -1,0 +1,9 @@
+read_verilog -sv "./RTL/Rocket.v"
+
+hierarchy -check -top Rocket
+
+proc; flatten; 
+opt; fsm; opt; memory; opt;
+
+techmap; opt;
+write_verilog -noattr ./SOG/Rocket.v 

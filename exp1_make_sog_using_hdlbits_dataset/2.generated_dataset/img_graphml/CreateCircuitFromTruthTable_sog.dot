@@ -1,0 +1,25 @@
+digraph CreateCircuitFromTruthTable_sog {
+    clk [label="clk", style=filled, color=red];
+    j [label="j", style=filled, color=red];
+    k [label="k", style=filled, color=red];
+    Q [label="Q", style=filled, color=lightblue];
+    _00_ [label="_00_", style=filled, color=red];
+    _01_ [label="_01_", style=filled, color=red];
+    _02_ [label="_02_", style=filled, color=red];
+    _03_ [label="_03_", style=filled, color=red];
+    _04_ [label="_04_", style=filled, color=red];
+    And0 [label="And0", style=filled, color=pink];
+    And1 [label="And1", style=filled, color=pink];
+    Or2 [label="Or2", style=filled, color=pink];
+    Unot3 [label="Unot3", style=filled, color=pink];
+    Unot4 [label="Unot4", style=filled, color=pink];
+    Q -> Or2;
+    And0 -> j;
+    And0 -> Unot3;
+    And1 -> Unot4;
+    And1 -> Q;
+    Or2 -> And0;
+    Or2 -> And1;
+    Unot3 -> Q;
+    Unot4 -> k;
+}

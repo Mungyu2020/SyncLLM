@@ -1,0 +1,7 @@
+digraph DLatch_sog {
+    d [label="d", style=filled, color=red];
+    ena [label="ena", style=filled, color=red];
+    q [label="q", style=filled, color=lightblue];
+    Mux0 [label="Mux0", style=filled, color=pink];
+    q -> d;
+}

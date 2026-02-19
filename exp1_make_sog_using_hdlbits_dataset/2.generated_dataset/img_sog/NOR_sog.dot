@@ -1,0 +1,9 @@
+digraph test {
+    in2 [style=filled, color=red];
+    in1 [style=filled, color=red];
+    Or0 [style=filled, color=pink];
+    Unot1 [style=filled, color=pink];
+    Unot1 -> Or0;
+    Or0 -> in1;
+    Or0 -> in2;
+}

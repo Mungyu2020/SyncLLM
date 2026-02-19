@@ -1,0 +1,20 @@
+digraph test {
+    too_cold [style=filled, color=red];
+    fan_on [style=filled, color=red];
+    Or2 [style=filled, color=pink];
+    too_hot [style=filled, color=red];
+    mode [style=filled, color=red];
+    And0 [style=filled, color=pink];
+    Or3 [style=filled, color=pink];
+    Unot4 [style=filled, color=pink];
+    And1 [style=filled, color=pink];
+    Unot4 -> mode;
+    And0 -> too_cold;
+    And0 -> mode;
+    Or3 -> fan_on;
+    Or3 -> Or2;
+    And1 -> Unot4;
+    And1 -> too_hot;
+    Or2 -> And0;
+    Or2 -> And1;
+}

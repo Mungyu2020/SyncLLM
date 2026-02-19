@@ -1,0 +1,17 @@
+digraph test {
+    A_PTR1 [style=filled, color=red];
+    Xor1 [style=filled, color=pink];
+    B_PTR0 [style=filled, color=red];
+    Xor0 [style=filled, color=pink];
+    B_PTR1 [style=filled, color=red];
+    Unot3 [style=filled, color=pink];
+    A_PTR0 [style=filled, color=red];
+    Or2 [style=filled, color=pink];
+    Or2 -> Xor1;
+    Xor1 -> A_PTR1;
+    Unot3 -> Or2;
+    Or2 -> Xor0;
+    Xor0 -> B_PTR0;
+    Xor1 -> B_PTR1;
+    Xor0 -> A_PTR0;
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="x">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="y">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="z">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Xor0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="And1">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Xor0" target="x" />
+    <edge source="Xor0" target="y" />
+    <edge source="And1" target="Xor0" />
+    <edge source="And1" target="x" />
+  </graph>
+</graphml>

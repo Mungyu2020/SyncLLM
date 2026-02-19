@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="L">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="r_in">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q_in">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Q">
+      <data key="d0">Reg</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_0_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Cond0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="Q" target="Cond0" />
+    <edge source="Cond0" target="L" />
+    <edge source="Cond0" target="r_in" />
+    <edge source="Cond0" target="q_in" />
+  </graph>
+</graphml>
