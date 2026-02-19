@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="width" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="clk">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="resetn">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="byteena">
+      <data key="d0">Wire</data>
+      <data key="d1">2</data>
+    </node>
+    <node id="d">
+      <data key="d0">Wire</data>
+      <data key="d1">16</data>
+    </node>
+    <node id="q">
+      <data key="d0">Reg</data>
+      <data key="d1">16</data>
+    </node>
+    <node id="_00_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_01_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_02_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_03_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_04_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_05_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_06_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_07_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_08_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="_09_">
+      <data key="d0">Wire</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux0">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot1">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant0">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant1">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux2">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR2">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux3">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot4">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant2">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant3">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux5">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR3">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux6">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot7">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR4">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant4">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant5">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux8">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR4">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux9">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot10">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR5">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant6">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant7">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux11">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR5">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux12">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot13">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR6">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant8">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant9">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux14">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR6">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux15">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot16">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR7">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant10">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant11">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux17">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR7">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux18">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot19">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR8">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant12">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant13">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux20">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR8">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux21">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot22">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR9">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant14">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant15">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux23">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR9">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux24">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot25">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR10">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant16">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant17">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux26">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR10">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux27">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot28">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR11">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant18">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant19">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux29">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR11">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux30">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot31">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR12">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant20">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant21">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux32">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR12">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux33">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot34">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR13">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant22">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant23">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux35">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR13">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux36">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot37">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR14">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant24">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant25">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux38">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR14">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux39">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot40">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR15">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant26">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant27">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux41">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR15">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux42">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot43">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant28">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant29">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux44">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux45">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Ulnot46">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="q.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant30">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Constant31">
+      <data key="d0">Constant</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Mux47">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="d.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot48">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="byteena.PTR1">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot49">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="byteena.PTR0">
+      <data key="d0">Pointer</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or50">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or51">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or52">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or53">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Or54">
+      <data key="d0">Operator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot55">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot56">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <node id="Unot57">
+      <data key="d0">UnaryOperator</data>
+      <data key="d1">1</data>
+    </node>
+    <edge source="q" target="q.PTR2" />
+    <edge source="q" target="q.PTR3" />
+    <edge source="q" target="q.PTR4" />
+    <edge source="q" target="q.PTR5" />
+    <edge source="q" target="q.PTR6" />
+    <edge source="q" target="q.PTR7" />
+    <edge source="q" target="q.PTR8" />
+    <edge source="q" target="q.PTR9" />
+    <edge source="q" target="q.PTR10" />
+    <edge source="q" target="q.PTR11" />
+    <edge source="q" target="q.PTR12" />
+    <edge source="q" target="q.PTR13" />
+    <edge source="q" target="q.PTR14" />
+    <edge source="q" target="q.PTR15" />
+    <edge source="q" target="q.PTR0" />
+    <edge source="q" target="q.PTR1" />
+    <edge source="Mux0" target="Ulnot1" />
+    <edge source="Mux0" target="Constant0" />
+    <edge source="Ulnot1" target="resetn" />
+    <edge source="q.PTR2" target="Mux0" />
+    <edge source="q.PTR2" target="Constant1" />
+    <edge source="q.PTR2" target="d.PTR2" />
+    <edge source="Mux3" target="Ulnot4" />
+    <edge source="Mux3" target="Constant2" />
+    <edge source="Ulnot4" target="resetn" />
+    <edge source="q.PTR3" target="Mux3" />
+    <edge source="q.PTR3" target="Constant3" />
+    <edge source="q.PTR3" target="d.PTR3" />
+    <edge source="Mux6" target="Ulnot7" />
+    <edge source="Mux6" target="Constant4" />
+    <edge source="Ulnot7" target="resetn" />
+    <edge source="q.PTR4" target="Mux6" />
+    <edge source="q.PTR4" target="Constant5" />
+    <edge source="q.PTR4" target="d.PTR4" />
+    <edge source="Mux9" target="Ulnot10" />
+    <edge source="Mux9" target="Constant6" />
+    <edge source="Ulnot10" target="resetn" />
+    <edge source="q.PTR5" target="Mux9" />
+    <edge source="q.PTR5" target="Constant7" />
+    <edge source="q.PTR5" target="d.PTR5" />
+    <edge source="Mux12" target="Ulnot13" />
+    <edge source="Mux12" target="Constant8" />
+    <edge source="Ulnot13" target="resetn" />
+    <edge source="q.PTR6" target="Mux12" />
+    <edge source="q.PTR6" target="Constant9" />
+    <edge source="q.PTR6" target="d.PTR6" />
+    <edge source="Mux15" target="Ulnot16" />
+    <edge source="Mux15" target="Constant10" />
+    <edge source="Ulnot16" target="resetn" />
+    <edge source="q.PTR7" target="Mux15" />
+    <edge source="q.PTR7" target="Constant11" />
+    <edge source="q.PTR7" target="d.PTR7" />
+    <edge source="Mux18" target="Ulnot19" />
+    <edge source="Mux18" target="Constant12" />
+    <edge source="Ulnot19" target="resetn" />
+    <edge source="q.PTR8" target="Mux18" />
+    <edge source="q.PTR8" target="Constant13" />
+    <edge source="q.PTR8" target="d.PTR8" />
+    <edge source="Mux21" target="Ulnot22" />
+    <edge source="Mux21" target="Constant14" />
+    <edge source="Ulnot22" target="resetn" />
+    <edge source="q.PTR9" target="Mux21" />
+    <edge source="q.PTR9" target="Constant15" />
+    <edge source="q.PTR9" target="d.PTR9" />
+    <edge source="Mux24" target="Ulnot25" />
+    <edge source="Mux24" target="Constant16" />
+    <edge source="Ulnot25" target="resetn" />
+    <edge source="q.PTR10" target="Mux24" />
+    <edge source="q.PTR10" target="Constant17" />
+    <edge source="q.PTR10" target="d.PTR10" />
+    <edge source="Mux27" target="Ulnot28" />
+    <edge source="Mux27" target="Constant18" />
+    <edge source="Ulnot28" target="resetn" />
+    <edge source="q.PTR11" target="Mux27" />
+    <edge source="q.PTR11" target="Constant19" />
+    <edge source="q.PTR11" target="d.PTR11" />
+    <edge source="Mux30" target="Ulnot31" />
+    <edge source="Mux30" target="Constant20" />
+    <edge source="Ulnot31" target="resetn" />
+    <edge source="q.PTR12" target="Mux30" />
+    <edge source="q.PTR12" target="Constant21" />
+    <edge source="q.PTR12" target="d.PTR12" />
+    <edge source="Mux33" target="Ulnot34" />
+    <edge source="Mux33" target="Constant22" />
+    <edge source="Ulnot34" target="resetn" />
+    <edge source="q.PTR13" target="Mux33" />
+    <edge source="q.PTR13" target="Constant23" />
+    <edge source="q.PTR13" target="d.PTR13" />
+    <edge source="Mux36" target="Ulnot37" />
+    <edge source="Mux36" target="Constant24" />
+    <edge source="Ulnot37" target="resetn" />
+    <edge source="q.PTR14" target="Mux36" />
+    <edge source="q.PTR14" target="Constant25" />
+    <edge source="q.PTR14" target="d.PTR14" />
+    <edge source="Mux39" target="Ulnot40" />
+    <edge source="Mux39" target="Constant26" />
+    <edge source="Ulnot40" target="resetn" />
+    <edge source="q.PTR15" target="Mux39" />
+    <edge source="q.PTR15" target="Constant27" />
+    <edge source="q.PTR15" target="d.PTR15" />
+    <edge source="Mux42" target="Ulnot43" />
+    <edge source="Mux42" target="Constant28" />
+    <edge source="Ulnot43" target="resetn" />
+    <edge source="q.PTR0" target="Mux42" />
+    <edge source="q.PTR0" target="Constant29" />
+    <edge source="q.PTR0" target="d.PTR0" />
+    <edge source="Mux45" target="Ulnot46" />
+    <edge source="Mux45" target="Constant30" />
+    <edge source="Ulnot46" target="resetn" />
+    <edge source="q.PTR1" target="Mux45" />
+    <edge source="q.PTR1" target="Constant31" />
+    <edge source="q.PTR1" target="d.PTR1" />
+    <edge source="Unot48" target="byteena.PTR1" />
+    <edge source="Unot49" target="byteena.PTR0" />
+    <edge source="Or50" target="Unot55" />
+    <edge source="Or50" target="Unot56" />
+    <edge source="Or51" target="Unot56" />
+    <edge source="Or51" target="Unot57" />
+    <edge source="Or52" target="byteena.PTR0" />
+    <edge source="Or52" target="Unot48" />
+    <edge source="Or53" target="Unot49" />
+    <edge source="Or53" target="Unot48" />
+    <edge source="Or54" target="Unot49" />
+    <edge source="Or54" target="byteena.PTR1" />
+    <edge source="Unot55" target="Or52" />
+    <edge source="Unot56" target="Or53" />
+    <edge source="Unot57" target="Or54" />
+  </graph>
+</graphml>

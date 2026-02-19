@@ -9,7 +9,7 @@
 
 Version 1
 ```tcsh
-# 가상환경 생성 (>2 hours)
+# 가상환경 생성 (>3 hours)
 conda env create -f environment.yml -n [environment name]
 
 # 가상환경 활성화
@@ -30,6 +30,18 @@ rehash
 
 Version 2 (Recommended)
  ```tcsh
-# 가상환경 생성 (>30 min)
+# 가상환경 생성 (<10 min)
 tcsh install_env.csh [environment name]
 ```
+
+## 3. 코드 수정 사항
+1. skeleton_gen/EDGE/eval_utils/evaluation/models/gin/gin.py
+    - "r" 이라는 문자가 코드 중간에 삽입돼서 삭제
+2. skeleton_gen/EDGE/datasets/data.py
+    - g_max_degree = max([d for _, d in g.degree()])에서 ValueError: max() arg is an empty sequence 문제 발생
+    - new_g.number_of_nodes() == 0: 이면 continue하도록 수정 (하드코딩, 데이터셋 문제인지 오류인지 점검 필요)
+3. skeleton_gen/EDGE/skeleton_designs
+    - 학습 데이터셋 부재로 exp1에서 생성한 .graphml 파일 추가
+4. skeleton_gen/EDGE/eval_utils/evaluation/graph_structure_evaluation.py
+    - mmd = K_GG.mean() + K_RR.mean() - (2 * K_GR.mean())에서 RuntimeWarning: Mean of empty slice.
+    - 2번 문제랑 관련 있어보임. 구체적인 이유는 아직 확인 불가
