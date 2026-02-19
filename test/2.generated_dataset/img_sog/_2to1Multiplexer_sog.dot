@@ -1,9 +1,0 @@
-digraph test {
-    b [style=filled, color=red];
-    Cond0 [style=filled, color=pink];
-    sel [style=filled, color=red];
-    a [style=filled, color=red];
-    Cond0 -> a;
-    Cond0 -> sel;
-    Cond0 -> b;
-}

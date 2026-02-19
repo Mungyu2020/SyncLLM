@@ -1,30 +1,19 @@
 # Sync-LLM: RTL to SOG Graph Preprocessing Pipeline
 
-HDLBITS_solutions에서 얻은 RTL을 Sync-LLM 모델(Edge Diffusion)의 입력 형태인 SOG 기반 GraphML 데이터로 변환하는 코드입니다.
-
-## Prerequisites
-
-* **OS:** RHEL 9.4 (Plow) - GPU5,GPU8
-* **Shell:** `tcsh` 
-* **Python:** 3.9+ 
-* **EDA Tools:**
-  * **Yosys:** RTL 합성 및 SOG Netlist 생성용
-  * **Icarus Verilog:** Pyverilog 파싱 엔진용
-
----
+HDLBITS_solutions에서 얻은 RTL을 Sync-LLM 모델(Edge Diffusion)의 입력 형태인 SOG 기반 GraphML 데이터로 변환하는 코드.
 
 ## How to Use
 
-데이터 변환은 총 3단계 스크립트로 진행. 모든 경로는 프로젝트 루트 디렉토리(exp1_~) 기준.
+데이터 변환은 총 3단계 스크립트로 진행. 모든 경로는 현재 디렉토리 기준.
 
 ### Step 1. RTL 파일명 정규화 (`1.rename_RTL.py`)
-HDLBits 솔루션에서 파싱한 원본 RTL 파일들의 이름을 이후 단계의 **Top Module 이름**으로 사용하기 위해 파일명을 수정.
+HDLBITS_solutions에서 파싱한 원본 RTL 파일들의 이름을 이후 단계의 **Top Module 이름**으로 사용하기 위해 파일명을 수정.
 
 * **입력:** `Data/1.RTL_raw/*.v`
 * **출력:** `Data/2.RTL/*.v`
 * **주요 기능:**
   * 파일명 내 특수문자를 제거하고 언더바(`_`)로 치환.
-  * 숫자로 시작하는 파일명 앞에 `_`를 추가하여 Verilog 식별자 규칙을 준수.
+  * 숫자로 시작하는 파일명 앞에 `_`를 추가하여 Verilog 식별자 규칙 준수.
 * **실행:**
   ```tcsh
   python 1.rename_RTL.py

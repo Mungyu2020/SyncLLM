@@ -1,6 +1,0 @@
-digraph DFLipFlop_sog {
-    clk [label="clk", style=filled, color=red];
-    d [label="d", style=filled, color=red];
-    q [label="q", style=filled, color=lightblue];
-    q -> d;
-}

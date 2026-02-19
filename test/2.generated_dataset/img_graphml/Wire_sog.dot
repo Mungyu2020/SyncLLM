@@ -1,4 +1,0 @@
-digraph Wire_sog {
-    in [label="in", style=filled, color=red];
-    out [label="out", style=filled, color=red];
-}
