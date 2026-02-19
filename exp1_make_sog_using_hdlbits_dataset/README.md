@@ -1,5 +1,8 @@
 ## 1. 환경 설정
 ### Conda Environment
+해당 가상환경에서는 Pyverilog, Yosys, MasterRT 정도는 돌아가지만 SyncircuitData는 돌릴 수 없다. (Yosys 빌드를 위해 python 버전을 3.8 정도로 낮춰 놓음)
+AST나 SOG 관련 작업을 할 떄 해당 가상환경을 사용하면 될 것으로 보인다. (Sync-LLM 재현에서는 EDGE diffusion model dataset 생성 정도에 쓰일 듯)
+
 ```tcsh
 # 가상환경 생성
 conda env create -f environment.yml -n [environment name] -y
