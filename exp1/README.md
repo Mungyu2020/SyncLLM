@@ -15,8 +15,7 @@ AST나 SOG 관련 작업을 할 떄 해당 가상환경을 사용하면 될 것�
 
 ```tcsh
 # 가상환경 생성
-conda env create -f environment.yml -n [environment name] -y
-
+conda env create -f environment.yml -n [environment name]
 # 가상환경 활성화
 conda activate [environment name]
 ```
@@ -28,7 +27,7 @@ conda activate [environment name]
 
 ```tcsh
 # yosys 폴더로 이동
-cd yosys
+cd ../yosys
 
 # GCC 기반 빌드 설정 생성
 make config-gcc
