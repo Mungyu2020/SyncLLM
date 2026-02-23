@@ -28,14 +28,14 @@
 * **내용:** masterRTL과 동일한 방식은 아니나, RTL을 간단한 문법의 BLIF-RTL로 변환함
 * **실행 명령어:**
   ```tcsh
-yosys yosys_script/1_Behavior_RTL_to_Simple_RTL
+    yosys yosys_script/1_Behavior_RTL_to_Simple_RTL
 
 ### 실험 1.5: 1-bit 분리 기반 RTL 변환 
 * **목적:** SOG 생성을 위해 BLIF-RTL 파싱 단계에서 발생하는 Pointer 및 Concatenation 문법 관련 오류 해결 
 * **내용:** 실험 1과 동일하나, 생성된 BLIF-RTL의 모든 assign문을 1-bit 단위로 분리 (splitnets -ports 옵션 추가) 
 * **실행 명령어:**
   ```tcsh
- yosys yosys_script/1.5_Behavior_RTL_to_Simple_RTL 
+    yosys yosys_script/1.5_Behavior_RTL_to_Simple_RTL 
 
 ### 실험 2: BLIF 기반 Netlist 생성 
 * **목적:** 원본 RTL을 BLIF-Netlist로 변환 
@@ -49,7 +49,7 @@ yosys yosys_script/1_Behavior_RTL_to_Simple_RTL
 * **내용:** 실험 1.5의 BLIF-RTL을 기반으로 Netlist 생성 시 assign문이 완전히 사라짐을 확인 
 * **실행 명령어:**
   ```tcsh
-yosys yosys_script/2.5_Behavior_RTL_to_RTLIL
+    yosys yosys_script/2.5_Behavior_RTL_to_RTLIL
 
 ---
 
