@@ -17,7 +17,7 @@
 
 ## 2. 실험 환경
 * **Server:** GPU-5 Server
-* **Tool:** Yosys (Open Synthesis Suite), Pyverilog
+* **Tool:** Yosys, Pyverilog
 
 ---
 
@@ -35,14 +35,14 @@ yosys yosys_script/1_Behavior_RTL_to_Simple_RTL
 * **내용:** 실험 1과 동일하나, 생성된 BLIF-RTL의 모든 assign문을 1-bit 단위로 분리 (splitnets -ports 옵션 추가) 
 * **실행 명령어:**
   ```tcsh
-yosys yosys_script/1.5_Behavior_RTL_to_Simple_RTL 
+ yosys yosys_script/1.5_Behavior_RTL_to_Simple_RTL 
 
 ### 실험 2: BLIF 기반 Netlist 생성 
 * **목적:** 원본 RTL을 BLIF-Netlist로 변환 
 * **특이사항:** 변환 후에도 일부 assign문이 남아있는 현상 발생 (원인 분석 필요) 
 * **실행 명령어:**
   ```tcsh
-yosys yosys_script/2._Behavior_RTL_to_RTLIL
+    yosys yosys_script/2._Behavior_RTL_to_RTLIL
 
 ### 실험 2.5: 정제된 Netlist 생성 
 * **목적:** 실험 1.5의 로직을 적용한 고도화된 BLIF-Netlist 생성 
