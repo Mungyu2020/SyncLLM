@@ -1,0 +1,10 @@
+#read  -verific
+read_verilog /home/mgchoi/AST-J/MasterRTL/example/verilog/counter/counter.v
+
+hierarchy -check -top counter
+
+proc; flatten; opt; 
+fsm; opt; memory; opt;
+
+techmap; opt;
+write_verilog -noattr /home/mgchoi/counter_sog.v 

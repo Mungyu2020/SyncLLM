@@ -1,0 +1,9 @@
+read_verilog -sv "./RTL/counter.v"
+
+synth -top counter
+
+splitnets -ports
+
+clean
+
+write_verilog -noattr ./rslt/1.5_counter_RTL.v

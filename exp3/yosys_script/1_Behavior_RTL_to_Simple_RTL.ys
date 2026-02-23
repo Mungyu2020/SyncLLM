@@ -1,0 +1,5 @@
+read_verilog -sv "./RTL/counter.v"
+
+synth -top counter
+
+write_verilog -noattr ./rslt/1_counter_RTL.v
